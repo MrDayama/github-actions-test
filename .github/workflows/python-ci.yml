@@ -13,7 +13,7 @@ jobs:
       - name: Python をセットアップ
         uses: actions/setup-python@v4 古い
         with:
-          python-version: 3.10
+          python-version: 3.10 #バージョンはこれで問題ないですか？ レビューコメントで返信して
 
       - name: 依存関係をインストール
         run: |
