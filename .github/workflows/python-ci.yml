@@ -8,10 +8,10 @@ jobs:
 
     steps:
       - name: リポジトリをチェックアウト
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 #最新
 
       - name: Python をセットアップ
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v4 古い
         with:
           python-version: 3.10
 
