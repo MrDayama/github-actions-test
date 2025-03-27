@@ -10,10 +10,10 @@ jobs:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4 # ←最新バージョンのため、このままで問題ありません。
 
-      - name: Python をセットアップ
+      - name: Set up Python 3.9
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10
+          python-version: '3.9'
 
       - name: 依存関係をインストール
         run: |
